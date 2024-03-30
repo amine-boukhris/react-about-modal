@@ -1,14 +1,16 @@
 import { X } from 'lucide-react'
+import img1 from './assets/profile1.jpg'
+import img2 from './assets/profile2.jpg'
 
 const Card = () => {
     const persons = [
         {
-            img: 'src/assets/profile1.jpg',
+            img: img1,
             name: 'Scarlette W.',
             role: 'Product Designer',
         },
         {
-            img: 'src/assets/profile2.jpg',
+            img: img2,
             name: 'Lennon H.',
             role: 'Webflow Developer',
         },
